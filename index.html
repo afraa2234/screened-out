@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screened Out</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Screened Out</h1>
+    <p class="subtitle">What college students should know about the AI that reads resumes</p>
+    <nav>
+      <a href="#resumes">Resume dos and don'ts</a> |
+      <a href="#bias">Where the bias comes from</a> |
+      <a href="#checklist">Your checklist for success</a> |
+      <a href="sources.html">Sources</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="how">
+      <h2>Applied to a lot of jobs and never heard back?</h2>
+      <p class="hook">Your resume might be read by AI before a person ever sees it.</p>
+
+      <div class="flow">
+        <div class="step">
+          <strong>1. You apply</strong>
+          <p>You upload your resume to an online job portal.</p>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="step">
+          <strong>2. The AI screens it</strong>
+          <p>An AI tool reads your resume and compares it to the job.</p>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="step highlight">
+          <strong>3. The AI ranks you</strong>
+          <p>You get a score or a rank. This is where bias can come in.</p>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="step">
+          <strong>4. A recruiter looks</strong>
+          <p>Usually only the top-ranked applicants get seen by a person.</p>
+        </div>
+      </div>
+
+      <p>You might not have been rejected by a person. Many companies now use AI tools to screen resumes and rank candidates before a hiring manager ever sees them.</p>
+      <p>These tools save companies time, but they learn from past hiring decisions. If those decisions were unfair to some groups, the tool can repeat that unfairness, and because it's hard to see how the tool makes decisions, nobody may notice.</p>
+    </section>
+
+    <section id="resumes">
+      <h2>Resume dos and don'ts</h2>
+      <p>Both of these resumes belong to the same student with the same experience. The one on the right uses simple formatting and the same words as the job post, which makes it easier for screening software to match.</p>
+
+      <p class="job"><strong>Job post asks for:</strong> JavaScript, React, SQL, Git, REST APIs, Agile</p>
+      <p class="key"><del>Crossed out</del> = what's holding it back &nbsp;&nbsp; <mark>Highlighted</mark> = what changed</p>
+
+      <div class="pair">
+      <div class="col">
+        <h3>Don't</h3>
+        <div class="resume dont">
+          <div class="sidebar">
+            <p class="sb-head">Contact</p>
+            <p><del>sam.taylor@email.com</del><br><del>(555) 123-4567</del><br><del>LinkedIn: samtaylor</del><br>Boston, MA</p>
+            <p class="sb-head">Education</p>
+            <p>Riverside University<br>Computer Science<br><del>2028</del><br>GPA: 3.6 | Dean's List</p>
+            <p>Classes: Web Dev, Databases, Algorithms</p>
+            <p class="sb-head">Skills</p>
+            <p><del>JS</del><br>Python<br><del>Databases</del><br><del>Web Design</del><br>React<br><del>Version Control</del><br><del>APIs</del><br>Figma</p>
+            <p class="sb-head">Involvement</p>
+            <p>Women in Computing<br>Events Chair, 2025 - Now</p>
+            <ul>
+              <li><del>Planned lots of events for members</del></li>
+            </ul>
+          </div>
+          <div class="main-col">
+            <p class="dont-name">SAM TAYLOR</p>
+            <p class="dont-title">Aspiring Software Engineer</p>
+            <p class="dont-head">Profile</p>
+            <p><del>Motivated and passionate computer science student looking for opportunities to grow my skills and make an impact.</del></p>
+            <p class="dont-head">Work History</p>
+            <p><b>Web Developer Co-op</b>, Campus Events Office<br>2026 - Now</p>
+            <ul>
+              <li><del>Worked on the events website and added new features</del></li>
+              <li><del>Made the site work on phones for lots of students</del></li>
+              <li><del>Participated in team meetings and code reviews</del></li>
+            </ul>
+            <p><b>IT Assistant</b>, Student Tech Help Desk<br>2025</p>
+            <ul>
+              <li><del>Helped lots of students with tech issues every week</del></li>
+              <li><del>Kept records of problems and wrote guides</del></li>
+            </ul>
+            <p><b>Peer Tutor</b>, Riverside Learning Center<br>2025</p>
+            <ul>
+              <li><del>Tutored students in coding every week</del></li>
+            </ul>
+            <p class="dont-head">Personal Projects</p>
+            <p><b>StudyBuddy</b></p>
+            <ul>
+              <li><del>Made an app to help students find study groups</del></li>
+              <li><del>Tested it with classmates and made it better</del></li>
+            </ul>
+            <p><b>Budget Tracker</b></p>
+            <ul>
+              <li><del>Simple app for keeping track of money</del></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="notes">
+          <li>Contact info is in a sidebar, which software may skip or mix into other text</li>
+          <li>Two columns can get read out of order</li>
+          <li>Skills like "JS" and "Databases" don't match the job post's words (JavaScript, SQL)</li>
+          <li>Bullets are vague and don't name the tools that were used</li>
+          <li>The profile takes up space without saying anything specific</li>
+          <li>"2028" doesn't say it's an expected graduation date</li>
+        </ul>
+      </div>
+
+      <div class="pair-arrow">&rarr;</div>
+
+      <div class="col">
+        <h3>Do</h3>
+        <div class="resume do">
+          <p class="do-name">Sam Taylor</p>
+          <p><mark>Boston, MA | (555) 123-4567 | sam.taylor@email.com | LinkedIn</mark></p>
+
+          <p class="r-head"><mark>Education</mark></p>
+          <div class="r-row"><b>Riverside University, Boston, MA</b><span><mark>Expected Graduation: May 2028</mark></span></div>
+          <p>B.S. in Computer Science | GPA: 3.6 | Dean's List<br>Relevant Courses: Web Development, Database Systems, Algorithms</p>
+
+          <p class="r-head"><mark>Experience</mark></p>
+          <div class="r-row"><span><b>Web Developer Co-op</b>, Campus Events Office</span><span>Jan 2026 - Present</span></div>
+          <ul>
+            <li>Added a <mark>React</mark> event calendar to the campus events website that loads data from <mark>REST APIs</mark></li>
+            <li>Rebuilt page layouts with <mark>HTML/CSS</mark> so the site works on phones for 2,000+ monthly visitors</li>
+            <li>Worked in <mark>Agile</mark> two-week sprints with a 4-person team and reviewed code in <mark>Git</mark></li>
+          </ul>
+          <div class="r-row"><span><b>IT Assistant</b>, Student Tech Help Desk</span><span>Sep 2025 - Dec 2025</span></div>
+          <ul>
+            <li>Resolved 30+ student tech requests each week and logged issues in a <mark>SQL</mark> database</li>
+            <li>Wrote step-by-step guides for the 10 most common Wi-Fi and printer problems</li>
+          </ul>
+          <div class="r-row"><span><b>Peer Tutor</b>, Riverside Learning Center</span><span>Jan 2025 - May 2025</span></div>
+          <ul>
+            <li>Tutored intro students weekly in <mark>Python</mark> basics and debugging</li>
+          </ul>
+
+          <p class="r-head"><mark>Projects</mark></p>
+          <div class="r-row"><b>StudyBuddy</b><span>Oct 2025 - Dec 2025</span></div>
+          <ul>
+            <li>Built a <mark>JavaScript</mark> web app with a <mark>SQL</mark> database that matches students into study groups by course</li>
+            <li>Tested with classmates and improved the matching based on their feedback</li>
+          </ul>
+          <div class="r-row"><b>Budget Tracker</b><span>Mar 2025 - Apr 2025</span></div>
+          <ul>
+            <li>Built a <mark>Python</mark> app that sorts spending into categories and shows monthly totals</li>
+          </ul>
+
+          <p class="r-head"><mark>Leadership</mark></p>
+          <div class="r-row"><span><b>Events Chair</b>, Women in Computing</span><span>Sep 2025 - Present</span></div>
+          <ul>
+            <li>Plan tech talks and coding workshops for club members each semester</li>
+          </ul>
+
+          <p class="r-head"><mark>Skills</mark></p>
+          <p><mark>JavaScript</mark>, <mark>Python</mark>, <mark>SQL</mark>, <mark>HTML/CSS</mark>, <mark>React</mark>, <mark>Git</mark>, <mark>REST APIs</mark>, Figma</p>
+        </div>
+        <ul class="notes">
+          <li>Contact info is plain text under the name</li>
+          <li>One column, read top to bottom</li>
+          <li>Skills are spelled out using the job post's exact words</li>
+          <li>Each bullet names the tools used and the result</li>
+          <li>No profile, so there's more room for real experience</li>
+          <li>Standard headings and clear dates, including "Expected Graduation: May 2028"</li>
+        </ul>
+      </div>
+      </div>
+
+      <p class="small">This is a made-up example. Formatting fixes help software read your resume, but they can't fix bias in the tool itself.</p>
+    </section>
+
+    <section id="bias">
+      <h2>Where the bias comes from</h2>
+
+      <h3>Biased past in, biased picks out</h3>
+      <div class="learn" id="learn">
+        <div class="learn-step">
+          <strong>1. Past hires</strong>
+          <div class="dots">
+            <i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i>
+            <i class="f"></i><i class="f"></i><i class="f"></i><i class="o"></i><i class="o"></i>
+          </div>
+          <p>A company mostly hired people from one group.</p>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="learn-step highlight">
+          <strong>2. The AI learns</strong>
+          <p class="learn-quote">"A good hire looks like the people we hired before."</p>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="learn-step">
+          <strong>3. The AI's shortlist</strong>
+          <div class="dots">
+            <i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="o"></i>
+          </div>
+          <p>It keeps picking that same group, even when new applicants are equally qualified.</p>
+        </div>
+      </div>
+      <p class="legend"><i class="f"></i> Group hired often in the past &nbsp;&nbsp; <i class="o"></i> Group hired less often</p>
+      <p class="small">A simple illustration, not real data. Bias most often starts in the data the AI learns from [1][2][3]. It can also come from how the tool is built [1] or how an employer words its instructions to the AI [4].</p>
+
+      <h3>Same resume, different name</h3>
+      <p>A name can hint at someone's gender or race. To test for bias, researchers give the AI two resumes that are identical except for the name. A fair AI would score them the same.</p>
+      <div class="swap">
+        <div class="swap-card">
+          <p class="swap-name"><mark>Name A</mark></p>
+          <p>Same school<br>Same experience<br>Same skills</p>
+        </div>
+        <div class="swap-equals">=</div>
+        <div class="swap-card">
+          <p class="swap-name"><mark>Name B</mark></p>
+          <p>Same school<br>Same experience<br>Same skills</p>
+        </div>
+      </div>
+      <div class="study-notes">
+        <div>
+          <p class="r-head">What they tested</p>
+          <p>801 real job applications scored by 11 AI models [5], and 16 equally qualified resumes with differently worded instructions [4].</p>
+        </div>
+        <div>
+          <p class="r-head">What they found</p>
+          <p>The names changed the scores, even with identical qualifications. [4][5] In one study, the AI models even gave fair-sounding reasons that hid the bias. [4]</p>
+        </div>
+        <div>
+          <p class="r-head">Why it matters to you</p>
+          <p>Nobody, not even the researchers, could explain why it happened. A qualified applicant could get filtered out and never know why.</p>
+        </div>
+      </div>
+
+      <p class="box">Even experts can't see inside most of these tools yet, so the bias often goes unnoticed. [1][2]</p>
+    </section>
+
+    <section id="checklist">
+      <h2>Your checklist for success</h2>
+      <p>You can't fix a biased tool on your own, but you <i>can</i> make sure your resume gets past the AI screening.</p>
+      <ul class="checks">
+        <li><label><input type="checkbox"> Use keywords from the job post.</label></li>
+        <li><label><input type="checkbox"> Keep your resume to a single column with standard headings.</label></li>
+        <li><label><input type="checkbox"> Put your contact info at the top, not in a sidebar, header, or table. Make it easy for recruiters to get in contact with you!</label></li>
+        <li><label><input type="checkbox"> Look for ways to reach a person: referrals, career fairs, alumni.</label></li>
+        <li><label><input type="checkbox"> Get your resume reviewed at your campus career center. The more eyes on your resume, the better!</label></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made by Afra Ankita for ENGW3302. Numbers in brackets like [1] match the list on the <a href="sources.html">Sources page</a>.</p>
+  </footer>
+
+  <script>
+    // fade in the steps when they scroll into view
+    var chart = document.getElementById("learn");
+    var watcher = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) {
+        chart.classList.add("show");
+        watcher.disconnect();
+      }
+    }, { threshold: 0.4 });
+    watcher.observe(chart);
+  </script>
+
+</body>
+</html>
