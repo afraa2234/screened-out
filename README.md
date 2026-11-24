@@ -4,7 +4,7 @@ A one-page website for college students about the AI tools that screen resumes b
 
 Made by Afra Ankita for ENGW 3302 (Advanced Writing in the Technical Professions) at Northeastern University, Project 3: Multimodal Project for a Public Audience. It's based on my Project 2 research on auditing AI hiring tools for bias.
 
-**Live site:** https://afraa2234.github.io/engw-resume-ai-infographic/
+**Live site:** https://afraa2234.github.io/screened-out
 
 ## What's on the site
 
@@ -19,13 +19,3 @@ Made by Afra Ankita for ENGW 3302 (Advanced Writing in the Technical Professions
 - `index.html` - the main page
 - `sources.html` - the sources page
 - `styles.css` - the styling
-
-## Running it locally
-
-Open `index.html` in a browser, or run:
-
-```
-python -m http.server 8000
-```
-
-then go to http://localhost:8000.
