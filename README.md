@@ -1,2 +1,31 @@
-# engw-resume-ai-infographic
-ENGW3302 assignment #3
+# Screened Out
+
+A one-page website for college students about the AI tools that screen resumes before a person ever sees them, and how those tools can be biased.
+
+Made by Afra Ankita for ENGW 3302 (Advanced Writing in the Technical Professions) at Northeastern University, Project 3: Multimodal Project for a Public Audience. It's based on my Project 2 research on auditing AI hiring tools for bias.
+
+**Live site:** https://afraa2234.github.io/engw-resume-ai-infographic/
+
+## What's on the site
+
+- How AI resume screening works
+- A side-by-side resume comparison (dos and don'ts)
+- Where bias in these tools comes from
+- A checklist students can use before applying
+- A sources page with the research explained in plain English
+
+## Files
+
+- `index.html` - the main page
+- `sources.html` - the sources page
+- `styles.css` - the styling
+
+## Running it locally
+
+Open `index.html` in a browser, or run:
+
+```
+python -m http.server 8000
+```
+
+then go to http://localhost:8000.
